@@ -1,0 +1,52 @@
+<tlLogic id="agent1" type="static" programID="0" offset="0">
+	
+		<phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+		
+		<phase duration="23" state="rrrrGGGGrrrrrrrr"/>
+        <phase duration="2" state="rrrryyyyrrrrrrrr"/>
+		<phase duration="23" state="rrrrrrrrGGGGrrrr"/>
+        <phase duration="2" state="rrrrrrrryyyyrrrrr"/>
+		<phase duration="23" state="rrrrrrrrrrrrGGGG"/>
+        <phase duration="2" state="rrrrrrrrrrrryyyy"/>
+		<phase duration="23" state="GGGGrrrrrrrrrrrr"/>
+        <phase duration="2" state="yyyyrrrrrrrrrrrr"/>
+		
+        
+    </tlLogic>
+    <tlLogic id="agent2" type="static" programID="0" offset="0">
+	
+		<phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+		<phase duration="23" state="rrrrrrrrGGGGrrrr"/>
+        <phase duration="2" state="rrrrrrrryyyyrrrrr"/>
+		<phase duration="23" state="rrrrrrrrrrrrGGGG"/>
+        <phase duration="2" state="rrrrrrrrrrrryyyy"/>
+		<phase duration="23" state="GGGGrrrrrrrrrrrr"/>
+        <phase duration="2" state="yyyyrrrrrrrrrrrr"/>
+		<phase duration="23" state="rrrrGGGGrrrrrrrr"/>
+        <phase duration="2" state="rrrryyyyrrrrrrrr"/>
+       
+    </tlLogic>
+    <tlLogic id="agent3" type="static" programID="0" offset="0">
+		<phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+		<phase duration="23" state="GGGGrrrrrrrrrrrr"/>
+        <phase duration="2" state="yyyyrrrrrrrrrrrr"/>
+		<phase duration="23" state="rrrrGGGGrrrrrrrr"/>
+        <phase duration="2" state="rrrryyyyrrrrrrrr"/>
+		<phase duration="23" state="rrrrrrrrGGGGrrrr"/>
+        <phase duration="2" state="rrrrrrrryyyyrrrrr"/>
+		<phase duration="23" state="rrrrrrrrrrrrGGGG"/>
+        <phase duration="2" state="rrrrrrrrrrrryyyy"/>
+       
+    </tlLogic>
+    <tlLogic id="agent4" type="static" programID="0" offset="0">
+        <phase duration="1" state="rrrrrrrrrrrrrrrr"/>
+		<phase duration="23" state="rrrrrrrrrrrrGGGG"/>
+        <phase duration="2" state="rrrrrrrrrrrryyyy"/>
+		<phase duration="23" state="GGGGrrrrrrrrrrrr"/>
+        <phase duration="2" state="yyyyrrrrrrrrrrrr"/>
+		<phase duration="23" state="rrrrGGGGrrrrrrrr"/>
+        <phase duration="2" state="rrrryyyyrrrrrrrr"/>
+		<phase duration="23" state="rrrrrrrrGGGGrrrr"/>
+        <phase duration="2" state="rrrrrrrryyyyrrrrr"/>
+		
+    </tlLogic>

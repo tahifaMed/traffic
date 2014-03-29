@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/routes_file.xsd">
+  <vType accel="1.0" decel="5.0" id="Car" length="2.0" minGap="2.0" maxSpeed="70.0" sigma="0" />
+
+  
+  <route id="route0_0" edges="agent1est1 agent2est1 agent2ouest2" />
+  <route id="route0_01" edges="agent1est1 agent4north1 agent3est1 agent3south2" />
+  <route id="route0_1" edges="agent1north1 agent4north1 agent4south2 " />
+  <route id="route0_11" edges="agent1north1 agent2est1 agent3north1 agent3ouest2" />
+  
+  
+  <route id="route1_0" edges=" agent2ouest1 agent1ouest1 agent1est2  " />
+  <route id="route1_01" edges=" agent2ouest1 agent3north1 agent4ouest1 agent4south2  " />
+  <route id="route1_1" edges=" agent2north1 agent3north1 agent3south2 " />
+  <route id="route1_11" edges=" agent2north1 agent1ouest1 agent4north1 agent4est2 " />
+  
+  <route id="route2_0" edges=" agent4est1 agent3est1 agent3ouest2" />
+  <route id="route2_01" edges=" agent4est1 agent1south1 agent2est1 agent2north2" />
+  <route id="route2_1" edges=" agent4south1 agent1south1 agent1north2  " />
+  <route id="route2_11" edges=" agent4south1 agent3est1 agent2south1 agent2ouest2  " />
+  
+  <route id="route3_0" edges=" agent3ouest1 agent4ouest1 agent4est2 " />
+  <route id="route3_01" edges=" agent3ouest1 agent2south1 agent1ouest1 agent1north2 " />
+  <route id="route3_1" edges=" agent3south1 agent2south1 agent2north2 " />
+  <route id="route3_11" edges=" agent3south1 agent4ouest1 agent1south1 agent1est2 " />
+  
+  
+  
+  
+	
+	
+	<flow id="type0_0_0" color="1,1,0"    route="route0_0"      begin="0" end= "1200" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type0_0_01" color="255,0,0" route="route0_01"  begin="0" end= "1200" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_1_0" color="1,1,0"    route="route0_1"      begin="0" end= "1200" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type0_1_01" color="255,0,0" route="route0_11"  begin="0" end= "1200" departLane="free" vehsPerHour="390" type="Car"/>
+	<flow id="type1_0_0" color="1,1,0"    route="route1_0"      begin="0" end= "1200" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type1_0_01" color="255,0,0" route="route1_01"  begin="0" end= "1200" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_1_0" color="1,1,0"    route="route1_1"      begin="0" end= "1200" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type1_1_01" color="255,0,0" route="route1_11"  begin="0" end= "1200" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type2_0_0" color="1,1,0"    route="route2_0"      begin="0" end= "1200" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type2_0_01" color="255,0,0" route="route2_01"  begin="0" end= "1200" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_1_0" color="1,1,0"    route="route2_1"      begin="0" end= "1200" departLane="free" vehsPerHour="425" type="Car"/>
+	<flow id="type2_1_01" color="255,0,0" route="route2_11"  begin="0" end= "1200" departLane="free" vehsPerHour="405" type="Car"/>
+	<flow id="type3_0_0" color="1,1,0"    route="route3_0"      begin="0" end= "1200" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type3_0_01" color="255,0,0" route="route3_01"  begin="0" end= "1200" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_1_0" color="1,1,0"    route="route3_1"      begin="0" end= "1200" departLane="free" vehsPerHour="415" type="Car"/>
+	<flow id="type3_1_01" color="255,0,0" route="route3_11"  begin="0" end= "1200" departLane="free" vehsPerHour="405" type="Car"/>
+	
+	
+	<flow id="type0_0_2" color="1,1,0"    route="route0_0"      begin="1200" end= "2400" departLane="free" vehsPerHour="500" type="Car"/>
+	<flow id="type0_0_21" color="255,0,0" route="route0_01"  begin="1200" end= "2400" departLane="free" vehsPerHour="480" type="Car"/>
+	<flow id="type0_1_2" color="1,1,0"    route="route0_1"      begin="1200" end= "2400" departLane="free" vehsPerHour="520" type="Car"/>
+	<flow id="type0_1_21" color="255,0,0" route="route0_11"  begin="1200" end= "2400" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_0_2" color="1,1,0"    route="route1_0"      begin="1200" end= "2400" departLane="free" vehsPerHour="500" type="Car"/>
+	<flow id="type1_0_21" color="255,0,0" route="route1_01"  begin="1200" end= "2400" departLane="free" vehsPerHour="480" type="Car"/>
+	<flow id="type1_1_2" color="1,1,0"    route="route1_1"      begin="1200" end= "2400" departLane="free" vehsPerHour="470" type="Car"/>
+	<flow id="type1_1_21" color="255,0,0" route="route1_11"  begin="1200" end= "2400" departLane="free" vehsPerHour="450" type="Car"/>
+	<flow id="type2_0_2" color="1,1,0"    route="route2_0"      begin="1200" end= "2400" departLane="free" vehsPerHour="350" type="Car"/>
+	<flow id="type2_0_21" color="255,0,0" route="route2_01"  begin="1200" end= "2400" departLane="free" vehsPerHour="330" type="Car"/>
+	<flow id="type2_1_2" color="1,1,0"    route="route2_1"      begin="1200" end= "2400" departLane="free" vehsPerHour="360" type="Car"/>
+	<flow id="type2_1_21" color="255,0,0" route="route2_11"  begin="1200" end= "2400" departLane="free" vehsPerHour="340" type="Car"/>
+	<flow id="type3_0_2" color="1,1,0"    route="route3_0"      begin="1200" end= "2400" departLane="free" vehsPerHour="370" type="Car"/>
+	<flow id="type3_0_21" color="255,0,0" route="route3_01"  begin="1200" end= "2400" departLane="free" vehsPerHour="350" type="Car"/>
+	<flow id="type3_1_2" color="1,1,0"    route="route3_1"      begin="1200" end= "2400" departLane="free" vehsPerHour="350" type="Car"/>
+	<flow id="type3_1_21" color="255,0,0" route="route3_11"  begin="1200" end= "2400" departLane="free" vehsPerHour="320" type="Car"/>
+	
+	<!--<flow id="type0_0_3" color="1,1,0" route="route0_0"      begin= "32000" end= "40000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type0_0_31" color="255,0,0" route="route0_01"  begin= "32000" end= "40000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type0_1_3" color="1,1,0" route="route0_1"      begin= "32000" end= "40000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type0_1_31" color="255,0,0" route="route0_11"  begin= "32000" end= "40000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type1_0_3" color="1,1,0" route="route1_0"      begin= "32000" end= "40000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type1_0_31" color="255,0,0" route="route1_01"  begin= "32000" end= "40000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type1_1_3" color="1,1,0" route="route1_1"      begin= "32000" end= "40000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type1_1_31" color="255,0,0" route="route1_11"  begin= "32000" end= "40000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type2_0_3" color="1,1,0" route="route2_0"      begin= "32000" end= "40000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type2_0_31" color="255,0,0" route="route2_01"  begin= "32000" end= "40000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type2_1_3" color="1,1,0" route="route2_1"      begin= "32000" end= "40000" departLane="free" vehsPerHour="425" type="Car"/>
+	<flow id="type2_1_31" color="255,0,0" route="route2_11"  begin= "32000" end= "40000" departLane="free" vehsPerHour="425" type="Car"/>
+	<flow id="type3_0_3" color="1,1,0" route="route3_0"      begin= "32000" end= "40000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type3_0_31" color="255,0,0" route="route3_01"  begin= "32000" end= "40000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type3_1_3" color="1,1,0" route="route3_1"      begin= "32000" end= "40000" departLane="free" vehsPerHour="415" type="Car"/>
+	<flow id="type3_1_31" color="255,0,0" route="route3_11"  begin= "32000" end= "40000" departLane="free" vehsPerHour="415" type="Car"/> -->
+	
+	<!-- <flow id="type0_0_3" color="1,1,0" route="route0_0"      begin="3000" end= "5000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type0_0_31" color="255,0,0" route="route0_01"  begin="3000" end= "5000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_1_3" color="1,1,0" route="route0_1"      begin="3000" end= "5000" departLane="free" vehsPerHour="440" type="Car"/>
+	<flow id="type0_1_31" color="255,0,0" route="route0_11"  begin="3000" end= "5000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type1_0_3" color="1,1,0" route="route1_0"      begin="3000" end= "5000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type1_0_31" color="255,0,0" route="route1_01"  begin="3000" end= "5000" departLane="free" vehsPerHour="450" type="Car"/>
+	<flow id="type1_1_3" color="1,1,0" route="route1_1"      begin="3000" end= "5000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type1_1_31" color="255,0,0" route="route1_11"  begin="3000" end= "5000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type2_0_3" color="1,1,0" route="route2_0"      begin="3000" end= "5000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type2_0_31" color="255,0,0" route="route2_01"  begin="3000" end= "5000" departLane="free" vehsPerHour="440" type="Car"/>
+	<flow id="type2_1_3" color="1,1,0" route="route2_1"      begin="3000" end= "5000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type2_1_31" color="255,0,0" route="route2_11"  begin="3000" end= "5000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type3_0_3" color="1,1,0" route="route3_0"      begin="3000" end= "5000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type3_0_31" color="255,0,0" route="route3_01"  begin="3000" end= "5000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type3_1_3" color="1,1,0" route="route3_1"      begin="3000" end= "5000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_1_31" color="255,0,0" route="route3_11"  begin="3000" end= "5000" departLane="free" vehsPerHour="430" type="Car"/>
+	
+	<flow id="type0_0_4" color="1,1,0" route="route0_0"      begin="5000" end= "10000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_0_41" color="255,0,0" route="route0_01"  begin="5000" end= "10000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_1_4" color="1,1,0" route="route0_1"      begin="5000" end= "10000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_1_41" color="255,0,0" route="route0_11"  begin="5000" end= "10000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_0_4" color="1,1,0" route="route1_0"      begin="5000" end= "10000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_0_41" color="255,0,0" route="route1_01"  begin="5000" end= "10000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_1_4" color="1,1,0" route="route1_1"      begin="5000" end= "10000" departLane="free" vehsPerHour="405" type="Car"/>
+	<flow id="type1_1_41" color="255,0,0" route="route1_11"  begin="5000" end= "10000" departLane="free" vehsPerHour="405" type="Car"/>
+	<flow id="type2_0_4" color="1,1,0" route="route2_0"      begin="5000" end= "10000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_0_41" color="255,0,0" route="route2_01"  begin="5000" end= "10000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_1_4" color="1,1,0" route="route2_1"      begin="5000" end= "10000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_1_41" color="255,0,0" route="route2_11"  begin="5000" end= "10000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_0_4" color="1,1,0" route="route3_0"      begin="5000" end= "10000" departLane="free" vehsPerHour="390" type="Car"/>
+	<flow id="type3_0_41" color="255,0,0" route="route3_01"  begin="5000" end= "10000" departLane="free" vehsPerHour="390" type="Car"/>
+	<flow id="type3_1_4" color="1,1,0" route="route3_1"      begin="5000" end= "10000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_1_41" color="255,0,0" route="route3_11"  begin="5000" end= "10000" departLane="free" vehsPerHour="400" type="Car"/>
+	
+	<flow id="type0_0_5" color="1,1,0" route="route0_0"      begin="10000" end= "13000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type0_0_51" color="255,0,0" route="route0_01"  begin="10000" end= "13000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type0_1_5" color="1,1,0" route="route0_1"      begin="10000" end= "13000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type0_1_51" color="255,0,0" route="route0_11"  begin="10000" end= "13000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type1_0_5" color="1,1,0" route="route1_0"      begin="10000" end= "13000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type1_0_51" color="255,0,0" route="route1_01"  begin="10000" end= "13000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type1_1_5" color="1,1,0" route="route1_1"      begin="10000" end= "13000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type1_1_51" color="255,0,0" route="route1_11"  begin="10000" end= "13000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type2_0_5" color="1,1,0" route="route2_0"      begin="10000" end= "13000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type2_0_51" color="255,0,0" route="route2_01"  begin="10000" end= "13000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type2_1_5" color="1,1,0" route="route2_1"      begin="10000" end= "13000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type2_1_51" color="255,0,0" route="route2_11"  begin="10000" end= "13000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type3_0_5" color="1,1,0" route="route3_0"      begin="10000" end= "13000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type3_1_51" color="255,0,0" route="route3_11"  begin="10000" end= "13000" departLane="free" vehsPerHour="430" type="Car"/>
+	
+	<flow id="type0_0_6" color="1,1,0" route="route0_0"      begin="13000" end= "16000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_0_61" color="255,0,0" route="route0_01"  begin="13000" end= "16000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_1_6" color="1,1,0" route="route0_1"      begin="13000" end= "16000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_1_61" color="255,0,0" route="route0_11"  begin="13000" end= "16000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_0_6" color="1,1,0" route="route1_0"      begin="13000" end= "16000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_0_61" color="255,0,0" route="route1_01"  begin="13000" end= "16000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_1_6" color="1,1,0" route="route1_1"      begin="13000" end= "16000" departLane="free" vehsPerHour="405" type="Car"/>
+	<flow id="type1_1_61" color="255,0,0" route="route1_11"  begin="13000" end= "16000" departLane="free" vehsPerHour="405" type="Car"/>
+	<flow id="type2_0_6" color="1,1,0" route="route2_0"      begin="13000" end= "16000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_0_61" color="255,0,0" route="route2_01"  begin="13000" end= "16000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_1_6" color="1,1,0" route="route2_1"      begin="13000" end= "16000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_1_61" color="255,0,0" route="route2_11"  begin="13000" end= "16000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_0_6" color="1,1,0" route="route3_0"      begin="13000" end= "16000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_0_61" color="255,0,0" route="route3_01"  begin="13000" end= "16000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_1_6" color="1,1,0" route="route3_1"      begin="13000" end= "16000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type3_1_61" color="255,0,0" route="route3_11"  begin="13000" end= "16000" departLane="free" vehsPerHour="400" type="Car"/>
+	
+	<flow id="type0_0_6" color="1,1,0" route="route0_0"      begin= "16000" end= "19000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_0_61" color="255,0,0" route="route0_01"  begin= "16000" end= "19000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_1_6" color="1,1,0" route="route0_1"      begin= "16000" end= "19000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_1_61" color="255,0,0" route="route0_11"  begin= "16000" end= "19000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_0_6" color="1,1,0" route="route1_0"      begin= "16000" end= "19000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_0_61" color="255,0,0" route="route1_01"  begin= "16000" end= "19000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_1_6" color="1,1,0" route="route1_1"      begin= "16000" end= "19000" departLane="free" vehsPerHour="405" type="Car"/>
+	<flow id="type1_1_61" color="255,0,0" route="route1_11"  begin= "16000" end= "19000" departLane="free" vehsPerHour="405" type="Car"/>
+	<flow id="type2_0_6" color="1,1,0" route="route2_0"      begin= "16000" end= "19000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_0_61" color="255,0,0" route="route2_01"  begin= "16000" end= "19000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_1_6" color="1,1,0" route="route2_1"      begin= "16000" end= "19000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_1_61" color="255,0,0" route="route2_11"  begin= "16000" end= "19000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_0_6" color="1,1,0" route="route3_0"      begin= "16000" end= "19000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_0_61" color="255,0,0" route="route3_01"  begin= "16000" end= "19000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_1_6" color="1,1,0" route="route3_1"      begin= "16000" end= "19000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type3_1_61" color="255,0,0" route="route3_11"  begin= "16000" end= "19000" departLane="free" vehsPerHour="400" type="Car"/>
+	
+	<flow id="type0_0_7" color="1,1,0" route="route0_0"      begin="22000" end= "25000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type0_0_71" color="255,0,0" route="route0_01"  begin="22000" end= "25000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type0_1_7" color="1,1,0" route="route0_1"      begin="22000" end= "25000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type0_1_71" color="255,0,0" route="route0_11"  begin="22000" end= "25000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type1_0_7" color="1,1,0" route="route1_0"      begin="22000" end= "25000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type1_0_71" color="255,0,0" route="route1_01"  begin="22000" end= "25000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type1_1_7" color="1,1,0" route="route1_1"      begin="22000" end= "25000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type1_1_71" color="255,0,0" route="route1_11"  begin="22000" end= "25000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type2_0_7" color="1,1,0" route="route2_0"      begin="22000" end= "25000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type2_0_71" color="255,0,0" route="route2_01"  begin="22000" end= "25000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type2_1_7" color="1,1,0" route="route2_1"      begin="22000" end= "25000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type2_1_71" color="255,0,0" route="route2_11"  begin="22000" end= "25000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type3_0_7" color="1,1,0" route="route3_0"      begin="22000" end= "25000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type3_0_71" color="255,0,0" route="route3_01"  begin="22000" end= "25000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type3_1_7" color="1,1,0" route="route3_1"      begin="22000" end= "25000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type3_1_71" color="255,0,0" route="route3_11"  begin="22000" end= "25000" departLane="free" vehsPerHour="420" type="Car"/>
+	
+	<flow id="type0_0_8" color="1,1,0" route="route0_0"      begin="25000" end= "35000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_0_81" color="255,0,0" route="route0_01"  begin="25000" end= "35000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_1_8" color="1,1,0" route="route0_1"      begin="25000" end= "35000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_1_81" color="255,0,0" route="route0_11"  begin="25000" end= "35000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_0_8" color="1,1,0" route="route1_0"      begin="25000" end= "35000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_0_81" color="255,0,0" route="route1_01"  begin="25000" end= "35000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_1_8" color="1,1,0" route="route1_1"      begin="25000" end= "35000" departLane="free" vehsPerHour="405" type="Car"/>
+	<flow id="type1_1_81" color="255,0,0" route="route1_11"  begin="25000" end= "35000" departLane="free" vehsPerHour="405" type="Car"/>
+	<flow id="type2_0_8" color="1,1,0" route="route2_0"      begin="25000" end= "35000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_0_81" color="255,0,0" route="route2_01"  begin="25000" end= "35000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_1_8" color="1,1,0" route="route2_1"      begin="25000" end= "35000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_1_81" color="255,0,0" route="route2_11"  begin="25000" end= "35000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_0_8" color="1,1,0" route="route3_0"      begin="25000" end= "35000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_0_81" color="255,0,0" route="route3_01"  begin="25000" end= "35000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_1_8" color="1,1,0" route="route3_1"      begin="25000" end= "35000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_1_81" color="255,0,0" route="route3_11"  begin="25000" end= "35000" departLane="free" vehsPerHour="400" type="Car"/>
+	
+	<flow id="type0_0_9" color="1,1,0" route="route0_0"      begin="35000" end= "40000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type0_0_91" color="255,0,0" route="route0_01"  begin="35000" end= "40000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type0_1_9" color="1,1,0" route="route0_1"      begin="35000" end= "40000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type0_1_91" color="255,0,0" route="route0_11"  begin="35000" end= "40000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type1_0_9" color="1,1,0" route="route1_0"      begin="35000" end= "40000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type1_0_91" color="255,0,0" route="route1_01"  begin="35000" end= "40000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type1_1_9" color="1,1,0" route="route1_1"      begin="35000" end= "40000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type1_1_91" color="255,0,0" route="route1_11"  begin="35000" end= "40000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type2_0_9" color="1,1,0" route="route2_0"      begin="35000" end= "40000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type2_0_91" color="255,0,0" route="route2_01"  begin="35000" end= "40000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type2_1_9" color="1,1,0" route="route2_1"      begin="35000" end= "40000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type2_1_91" color="255,0,0" route="route2_11"  begin="35000" end= "40000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type3_0_9" color="1,1,0" route="route3_0"      begin="35000" end= "40000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type3_0_91" color="255,0,0" route="route3_01"  begin="35000" end= "40000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type3_1_9" color="1,1,0" route="route3_1"      begin="35000" end= "40000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type3_1_91" color="255,0,0" route="route3_11"  begin="35000" end= "40000" departLane="free" vehsPerHour="410" type="Car"/>
+
+	<flow id="type0_0_10" color="1,1,0" route="route0_0"      begin="40000" end= "50000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_0_101" color="255,0,0" route="route0_01"  begin="40000" end= "50000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_1_10" color="1,1,0" route="route0_1"      begin="40000" end= "50000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_1_101" color="255,0,0" route="route0_11"  begin="40000" end= "50000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_0_10" color="1,1,0" route="route1_0"      begin="40000" end= "50000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_0_101" color="255,0,0" route="route1_01"  begin="40000" end= "50000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_1_10" color="1,1,0" route="route1_1"      begin="40000" end= "50000" departLane="free" vehsPerHour="405" type="Car"/>
+	<flow id="type1_1_101" color="255,0,0" route="route1_11"  begin="40000" end= "50000" departLane="free" vehsPerHour="405" type="Car"/>
+	<flow id="type2_0_10" color="1,1,0" route="route2_0"      begin="40000" end= "50000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_0_101" color="255,0,0" route="route2_01"  begin="40000" end= "50000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_1_10" color="1,1,0" route="route2_1"      begin="40000" end= "50000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_1_101" color="255,0,0" route="route2_11"  begin="40000" end= "50000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_0_10" color="1,1,0" route="route3_0"      begin="40000" end= "50000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_0_101" color="255,0,0" route="route3_01"  begin="40000" end= "50000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_1_10" color="1,1,0" route="route3_1"      begin="40000" end= "50000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_1_101" color="255,0,0" route="route3_11"  begin="40000" end= "50000" departLane="free" vehsPerHour="400" type="Car"/>
+
+	<flow id="type0_0_11" color="1,1,0" route="route0_0"      begin="50000" end= "55000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type0_0_111" color="255,0,0" route="route0_01"  begin="50000" end= "55000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type0_1_11" color="1,1,0" route="route0_1"      begin="50000" end= "55000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type0_1_111" color="255,0,0" route="route0_11"  begin="50000" end= "55000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type1_0_11" color="1,1,0" route="route1_0"      begin="50000" end= "55000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type1_0_111" color="255,0,0" route="route1_01"  begin="50000" end= "55000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type1_1_11" color="1,1,0" route="route1_1"      begin="50000" end= "55000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type1_1_111" color="255,0,0" route="route1_11"  begin="50000" end= "55000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type2_0_11" color="1,1,0" route="route2_0"      begin="50000" end= "55000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type2_0_111" color="255,0,0" route="route2_01"  begin="50000" end= "55000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type2_1_11" color="1,1,0" route="route2_1"      begin="50000" end= "55000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type2_1_111" color="255,0,0" route="route2_11"  begin="50000" end= "55000" departLane="free" vehsPerHour="430" type="Car"/>
+	<flow id="type3_0_11" color="1,1,0" route="route3_0"      begin="50000" end= "55000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type3_0_111" color="255,0,0" route="route3_01"  begin="50000" end= "55000" departLane="free" vehsPerHour="420" type="Car"/>
+	<flow id="type3_1_11" color="1,1,0" route="route3_1"      begin="50000" end= "55000" departLane="free" vehsPerHour="410" type="Car"/>
+	<flow id="type3_1_111" color="255,0,0" route="route3_11"  begin="50000" end= "55000" departLane="free" vehsPerHour="410" type="Car"/>
+	
+	<flow id="type0_0_12" color="1,1,0" route="route0_0"      begin="55000" end= "60000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_0_121" color="255,0,0" route="route0_01"  begin="55000" end= "60000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_1_12" color="1,1,0" route="route0_1"      begin="55000" end= "60000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type0_1_121" color="255,0,0" route="route0_11"  begin="55000" end= "60000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_0_12" color="1,1,0" route="route1_0"      begin="55000" end= "60000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_0_121" color="255,0,0" route="route1_01"  begin="55000" end= "60000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type1_1_12" color="1,1,0" route="route1_1"      begin="55000" end= "60000" departLane="free" vehsPerHour="405" type="Car"/>
+	<flow id="type1_1_121" color="255,0,0" route="route1_11"  begin="55000" end= "60000" departLane="free" vehsPerHour="405" type="Car"/>
+	<flow id="type2_0_12" color="1,1,0" route="route2_0"      begin="55000" end= "60000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_0_121" color="255,0,0" route="route2_01"  begin="55000" end= "60000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_1_12" color="1,1,0" route="route2_1"      begin="55000" end= "60000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type2_1_121" color="255,0,0" route="route2_11"  begin="55000" end= "60000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_0_12" color="1,1,0" route="route3_0"      begin="55000" end= "60000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_0_121" color="255,0,0" route="route3_01"  begin="55000" end= "60000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_1_12" color="1,1,0" route="route3_1"      begin="55000" end= "60000" departLane="free" vehsPerHour="400" type="Car"/>
+	<flow id="type3_1_121" color="255,0,0" route="route3_11"  begin="55000" end= "60000" departLane="free" vehsPerHour="400" type="Car"/>
+	 -->
+	
+</routes>

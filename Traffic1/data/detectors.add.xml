@@ -1,0 +1,97 @@
+<sumo-detectors>
+
+   <e1Detector id="agent1est1_0l_Detector" lane="agent1est1_0" pos="-1" freq="100" file="detector.xml" />
+   <e1Detector id="agent1est1_0e_Detector" lane="agent1est1_0" pos="4" freq="100" file="detector.xml" />
+   <e1Detector id="agent1est1_1l_Detector" lane="agent1est1_1" pos="-1" freq="100" file="detector.xml" />
+   <e1Detector id="agent1est1_1e_Detector" lane="agent1est1_1" pos="4" freq="100" file="detector.xml" />
+   
+   <e1Detector id="agent1north1_0l_Detector" lane="agent1north1_0" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent1north1_1l_Detector" lane="agent1north1_1" pos="-1" freq="100" file="detector.xml"  />
+    <e1Detector id="agent1north1_0e_Detector" lane="agent1north1_0" pos="4" freq="100" file="detector.xml"  />
+   <e1Detector id="agent1north1_1e_Detector" lane="agent1north1_1" pos="4" freq="100" file="detector.xml"  />
+   
+   <e1Detector id="agent1ouest1_0l_Detector" lane="agent1ouest1_0" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent1ouest1_1l_Detector" lane="agent1ouest1_1" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent1ouest1_0e_Detector" lane="agent1ouest1_0" pos="4" freq="100" file="detector.xml"  />
+   <e1Detector id="agent1ouest1_1e_Detector" lane="agent1ouest1_1" pos="4" freq="100" file="detector.xml"  />
+   
+   <e1Detector id="agent1south1_0l_Detector" lane="agent1south1_0" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent1south1_1l_Detector" lane="agent1south1_1" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent1south1_0e_Detector" lane="agent1south1_0" pos="4" freq="100" file="detector.xml"  />
+   <e1Detector id="agent1south1_1e_Detector" lane="agent1south1_1" pos="4" freq="100" file="detector.xml"  />
+   
+    <e1Detector id="agent2est1_0l_Detector" lane="agent2est1_0" pos="-1" freq="100" file="detector.xml" />
+	<e1Detector id="agent2est1_1l_Detector" lane="agent2est1_1" pos="-1" freq="100" file="detector.xml" />
+	<e1Detector id="agent2est1_0e_Detector" lane="agent2est1_0" pos="4" freq="100" file="detector.xml" />
+	<e1Detector id="agent2est1_1e_Detector" lane="agent2est1_1" pos="4" freq="100" file="detector.xml" />
+   
+   <e1Detector id="agent2north1_0l_Detector" lane="agent2north1_0" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent2north1_1l_Detector" lane="agent2north1_1" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent2north1_0e_Detector" lane="agent2north1_0" pos="4" freq="100" file="detector.xml"  />
+   <e1Detector id="agent2north1_1e_Detector" lane="agent2north1_1" pos="4" freq="100" file="detector.xml"  />
+   
+   <e1Detector id="agent2ouest1_0l_Detector" lane="agent2ouest1_0" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent2ouest1_1l_Detector" lane="agent2ouest1_1" pos="-1" freq="100" file="detector.xml"  /> 
+   <e1Detector id="agent2ouest1_0e_Detector" lane="agent2ouest1_0" pos="4" freq="100" file="detector.xml"  />
+   <e1Detector id="agent2ouest1_1e_Detector" lane="agent2ouest1_1" pos="4" freq="100" file="detector.xml"  /> 
+    
+	<e1Detector id="agent2south1_0l_Detector" lane="agent2south1_0" pos="-1" freq="100" file="detector.xml"  />
+	<e1Detector id="agent2south1_1l_Detector" lane="agent2south1_1" pos="-1" freq="100" file="detector.xml"  />
+	<e1Detector id="agent2south1_0e_Detector" lane="agent2south1_0" pos="4" freq="100" file="detector.xml"  />
+	<e1Detector id="agent2south1_1e_Detector" lane="agent2south1_1" pos="4" freq="100" file="detector.xml"  />
+   
+   <e1Detector id="agent3est1_0l_Detector" lane="agent3est1_0" pos="-1" freq="100" file="detector.xml" />
+   <e1Detector id="agent3est1_1l_Detector" lane="agent3est1_1" pos="-1" freq="100" file="detector.xml" />
+   <e1Detector id="agent3est1_0e_Detector" lane="agent3est1_0" pos="4" freq="100" file="detector.xml" />
+   <e1Detector id="agent3est1_1e_Detector" lane="agent3est1_1" pos="4" freq="100" file="detector.xml" />
+   
+   <e1Detector id="agent3north1_0l_Detector" lane="agent3north1_0" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent3north1_1l_Detector" lane="agent3north1_1" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent3north1_0e_Detector" lane="agent3north1_0" pos="4" freq="100" file="detector.xml"  />
+   <e1Detector id="agent3north1_1e_Detector" lane="agent3north1_1" pos="4" freq="100" file="detector.xml"  />
+   
+   <e1Detector id="agent3ouest1_0l_Detector" lane="agent3ouest1_0" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent3ouest1_1l_Detector" lane="agent3ouest1_1" pos="-1" freq="100" file="detector.xml"  />
+    <e1Detector id="agent3ouest1_0e_Detector" lane="agent3ouest1_0" pos="4" freq="100" file="detector.xml"  />
+   <e1Detector id="agent3ouest1_1e_Detector" lane="agent3ouest1_1" pos="4" freq="100" file="detector.xml"  />
+   
+   <e1Detector id="agent3south1_0l_Detector" lane="agent3south1_0" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent3south1_1l_Detector" lane="agent3south1_1" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent3south1_0e_Detector" lane="agent3south1_0" pos="4" freq="100" file="detector.xml"  />
+   <e1Detector id="agent3south1_1e_Detector" lane="agent3south1_1" pos="4" freq="100" file="detector.xml"  />
+   
+   <e1Detector id="agent4est1_0l_Detector" lane="agent4est1_0" pos="-1" freq="100" file="detector.xml" />
+   <e1Detector id="agent4est1_1l_Detector" lane="agent4est1_1" pos="-1" freq="100" file="detector.xml" />
+   <e1Detector id="agent4est1_0e_Detector" lane="agent4est1_0" pos="4" freq="100" file="detector.xml" />
+   <e1Detector id="agent4est1_1e_Detector" lane="agent4est1_1" pos="4" freq="100" file="detector.xml" />
+   
+   <e1Detector id="agent4north1_0l_Detector" lane="agent4north1_0" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent4north1_1l_Detector" lane="agent4north1_1" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent4north1_0e_Detector" lane="agent4north1_0" pos="4" freq="100" file="detector.xml"  />
+   <e1Detector id="agent4north1_1e_Detector" lane="agent4north1_1" pos="4" freq="100" file="detector.xml"  />
+   
+   <e1Detector id="agent4ouest1_0l_Detector" lane="agent4ouest1_0" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent4ouest1_1l_Detector" lane="agent4ouest1_1" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent4ouest1_0e_Detector" lane="agent4ouest1_0" pos="4" freq="100" file="detector.xml"  />
+   <e1Detector id="agent4ouest1_1e_Detector" lane="agent4ouest1_1" pos="4" freq="100" file="detector.xml"  />
+   
+   <e1Detector id="agent4south1_0l_Detector" lane="agent4south1_0" pos="-1" freq="100" file="detector.xml"  />
+   <e1Detector id="agent4south1_1l_Detector" lane="agent4south1_1" pos="-1" freq="100" file="detector.xml"  /> 
+   <e1Detector id="agent4south1_0e_Detector" lane="agent4south1_0" pos="4" freq="100" file="detector.xml"  />
+   <e1Detector id="agent4south1_1e_Detector" lane="agent4south1_1" pos="4" freq="100" file="detector.xml"  /> 
+   
+   <!-- <e1Detector id="southLeft_0" lane="south1_0" pos="490" freq="50" file="detector.xml"/>
+   <e1Detector id="southLeft_1" lane="south1_1" pos="490" freq="50" file="detector.xml"/>
+   <e1Detector id="northEnter" lane="north1_0" pos="100" freq="50" file="detector.xml"/>
+   <e1Detector id="northLeft_0" lane="north1_0" pos="490" freq="50" file="detector.xml"/>
+   <e1Detector id="northLeft_1" lane="north1_1" pos="490" freq="50" file="detector.xml"/>
+   <e1Detector id="estEnter" lane="est1_0" pos="100" freq="50" file="detector.xml"/>
+   <e1Detector id="estLeft_0" lane="est1_0" pos="490" freq="50" file="detector.xml"/>
+   <e1Detector id="estLeft_1" lane="est1_1" pos="490" freq="50" file="detector.xml"/>
+   <e1Detector id="ouestEnter" lane="ouest1_0" pos="100" freq="50" file="detector.xml"/>
+   <e1Detector id="ouestLeft_0" lane="ouest1_0" pos="490" freq="50" file="detector.xml"/>
+   <e1Detector id="ouestLeft_1" lane="ouest1_1" pos="490" freq="50" file="detector.xml"/>
+   
+    -->
+
+</sumo-detectors>

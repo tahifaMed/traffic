@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/nodes_file.xsd">
+    
+	
+	<node id="agent1" x="0.0"   y="0.0"    type="traffic_light"/>
+	<node id="agent2" x="600.0" y="0.0"    type="traffic_light"/>
+	<node id="agent3" x="600.0" y="-600.0" type="traffic_light"/>
+	<node id="agent4" x="0.0"   y="-600.0" type="traffic_light"/>
+	
+	
+	
+	<node id="agent1north" x="0.0" y="600.0" />
+	<node id="agent1est" x="-600.0" y="0.0" />
+	
+	<node id="agent2north" x="600.0" y="600.0" />
+	<node id="agent2ouest" x="1200.0" y="0.0" />
+	
+	<node id="agent3ouest" x="1200.0" y="-600.0" />
+	<node id="agent3south" x="600.0" y="-1200.0" />
+	
+	<node id="agent4south" x="0.0" y="-1200.0" />
+	<node id="agent4est" x="-600.0" y="-600.0" />
+	
+	
+	
+</nodes>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/connections_file.xsd">
+    
+    
+	<connection from="agent1est1" to="agent1north2" fromLane="1" toLane="0"/> 
+	<connection from="agent1est1" to="agent2est1" fromLane="1" toLane="1"/>
+	<connection from="agent1est1" to="agent2est1" fromLane="0" toLane="0"/>
+	<connection from="agent1est1" to="agent4north1" fromLane="0" toLane="0"/>
+	<connection from="agent1ouest1" to="agent1est2" fromLane="0" toLane="0"/>
+	<connection from="agent1ouest1" to="agent1north2" fromLane="0" toLane="0"/>
+	<connection from="agent1ouest1" to="agent1est2" fromLane="1" toLane="1"/>
+	<connection from="agent1ouest1" to="agent4north1" fromLane="1" toLane="1"/>
+	
+	<connection from="agent2est1" to="agent2ouest2" fromLane="0" toLane="0"/>
+	<connection from="agent2est1" to="agent3north1" fromLane="0" toLane="0"/>
+	<connection from="agent2est1" to="agent2ouest2" fromLane="1" toLane="1"/>
+	<connection from="agent2est1" to="agent2north2" fromLane="1" toLane="1"/>
+	
+	<connection from="agent2ouest1" to="agent1ouest1" fromLane="0" toLane="0"/> 
+	<connection from="agent2ouest1" to="agent2north2" fromLane="0" toLane="0"/> 
+	<connection from="agent2ouest1" to="agent1ouest1" fromLane="1" toLane="1"/> 
+	<connection from="agent2ouest1" to="agent3north1" fromLane="1" toLane="1"/> 
+	
+	<connection from="agent3est1" to="agent3ouest2" fromLane="0" toLane="0"/>
+	<connection from="agent3est1" to="agent3south2" fromLane="0" toLane="0"/>
+	<connection from="agent3est1" to="agent3ouest2" fromLane="1" toLane="1"/>
+	<connection from="agent3est1" to="agent2south1" fromLane="1" toLane="1"/>
+	<connection from="agent3ouest1" to="agent4ouest1" fromLane="0" toLane="0"/>
+	<connection from="agent3ouest1" to="agent2south1" fromLane="0" toLane="0"/>
+	<connection from="agent3ouest1" to="agent4ouest1" fromLane="1" toLane="1"/>
+	<connection from="agent3ouest1" to="agent3south2" fromLane="1" toLane="1"/>
+	
+	<connection from="agent4est1" to="agent3est1" fromLane="0" toLane="0"/>
+	<connection from="agent4est1" to="agent4south2" fromLane="0" toLane="0"/>
+	<connection from="agent4est1" to="agent3est1" fromLane="1" toLane="1"/>
+	<connection from="agent4est1" to="agent1south1" fromLane="1" toLane="1"/>
+	<connection from="agent4ouest1" to="agent4est2" fromLane="0" toLane="0"/>
+	<connection from="agent4ouest1" to="agent1south1" fromLane="0" toLane="0"/>
+	<connection from="agent4ouest1" to="agent4est2" fromLane="1" toLane="1"/>
+	<connection from="agent4ouest1" to="agent4south2" fromLane="1" toLane="1"/>
+	
+	<delete from="agent1north1" to="agent1north2"/>
+	
+	<delete from="agent1south1" to="agent4north1"/>
+	
+	
+	<delete from="agent2north1" to="agent2north2"/>
+	<delete from="agent2south1" to="agent3north1"/>
+	
+	<delete from="agent3north1" to="agent2south1"/> 
+	<delete from="agent3south1" to="agent3south2"/>
+
+	<delete from="agent4north1" to="agent1south1"/>
+	<delete from="agent4south1" to="agent4south2"/>
+	
+	
+	<!-- <connection from="south1" to="north2" fromLane="0" toLane="0"/>
+	<connection from="south1" to="north2" fromLane="1" toLane="1"/>
+	<connection from="north1" to="south2" fromLane="0" toLane="0"/>
+	<connection from="north1" to="south2" fromLane="1" toLane="1"/>
+	
+	<connection from="est1" to="ouest2" fromLane="0" toLane="0"/>
+	<connection from="est1" to="ouest2" fromLane="1" toLane="1"/>
+	<connection from="ouest1" to="est2" fromLane="0" toLane="0"/>
+	<connection from="ouest1" to="est2" fromLane="1" toLane="1"/> -->
+	
+	
+    
+</connections>

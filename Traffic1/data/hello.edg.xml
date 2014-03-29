@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/edges_file.xsd">
+  
+  <edge from="agent1north" id="agent1north1" to="agent1" type="a"/>
+  <edge from="agent1" id="agent1north2" to="agent1north" type="a"/>
+  
+  <edge from="agent1est" id="agent1est1" to="agent1" type="a"/>
+  <edge from="agent1" id="agent1est2" to="agent1est" type="a"/>
+  
+  <edge from="agent2" id="agent1ouest1" to="agent1" type="a"/>
+  <edge from="agent1" id="agent2est1" to="agent2" type="a"/>
+  
+  <edge from="agent4" id="agent1south1" to="agent1" type="a"/>
+  <edge from="agent1" id="agent4north1" to="agent4" type="a"/>
+  
+  
+  <edge from="agent2north" id="agent2north1" to="agent2" type="a"/>
+  <edge from="agent2" id="agent2north2" to="agent2north" type="a"/>
+  
+  <edge from="agent2ouest" id="agent2ouest1" to="agent2" type="a"/>
+  <edge from="agent2" id="agent2ouest2" to="agent2ouest" type="a"/>
+  
+  <edge from="agent2" id="agent3north1" to="agent3" type="a"/>
+  <edge from="agent3" id="agent2south1" to="agent2" type="a"/>
+  
+  
+  <edge from="agent3ouest" id="agent3ouest1" to="agent3" type="a"/>
+  <edge from="agent3" id="agent3ouest2" to="agent3ouest" type="a"/>
+  
+  <edge from="agent3south" id="agent3south1" to="agent3" type="a"/>
+  <edge from="agent3" id="agent3south2" to="agent3south" type="a"/>
+  
+   <edge from="agent4" id="agent3est1" to="agent3" type="a"/>
+  <edge from="agent3" id="agent4ouest1" to="agent4" type="a"/>
+  
+  
+  <edge from="agent4south" id="agent4south1" to="agent4" type="a"/>
+  <edge from="agent4" id="agent4south2" to="agent4south" type="a"/>
+  
+  <edge from="agent4est" id="agent4est1" to="agent4" type="a"/>
+  <edge from="agent4" id="agent4est2" to="agent4est" type="a"/>
+  
+  
+  
+  
+ </edges>

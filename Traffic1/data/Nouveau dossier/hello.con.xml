@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/connections_file.xsd">
+    
+    <connection from="south1" to="north1" fromLane="0" toLane="0"/>
+	<connection from="south1" to="north1" fromLane="1" toLane="1"/>
+	<connection from="north2" to="south2" fromLane="0" toLane="0"/>
+	<connection from="north2" to="south2" fromLane="1" toLane="1"/>
+	
+	<connection from="est1" to="ouest1" fromLane="0" toLane="0"/>
+	<connection from="est1" to="ouest1" fromLane="1" toLane="1"/>
+	<connection from="ouest2" to="est2" fromLane="0" toLane="0"/>
+	<connection from="ouest2" to="est2" fromLane="1" toLane="1"/>
+	
+	
+    
+</connections>
